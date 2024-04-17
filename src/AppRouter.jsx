@@ -11,7 +11,7 @@ import ProtectedRoute from './ProtectedRoute';
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/task-scheduler-v2'>
       <Routes>
         <Route index element={<Navigate replace to='/landing' />} />
 
