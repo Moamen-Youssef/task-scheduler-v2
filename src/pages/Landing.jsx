@@ -23,7 +23,7 @@ function Landing() {
 
   return (
     <StyledLandingCover className='text-5xl '>
-      <LandingText>Streamline your </LandingText>
+      <LandingText>Streamline your day with our task scheduler</LandingText>
     </StyledLandingCover>
   );
 }
