@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 function Landing() {
   const StyledLandingCover = styled.div`
-    background-image: url('public/background.jpg');
+    background-image: url('public/background.jpeg');
     height: 100vh;
     background-size: cover;
     background-position: center;
