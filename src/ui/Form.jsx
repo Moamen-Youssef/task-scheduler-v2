@@ -12,9 +12,10 @@ const Form = styled.form`
       border-radius: var(--border-radius-m);
       max-width: 60rem;
       margin:  2rem 0.65rem;
+      height: 88vh;
       display: flex;
       flex-direction: column;
-      gap: 2rem;      
+      gap: 2rem;     
     `}
   ${(props) =>
     props.type === "modal" &&
@@ -23,7 +24,7 @@ const Form = styled.form`
 
     `}
     
-  overflow: hidden;
+  overflow: auto;
   font-size: 1.4rem;
 `;
 
