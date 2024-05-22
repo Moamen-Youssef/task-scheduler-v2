@@ -11,7 +11,7 @@ const Form = styled.form`
       border: 1px solid var(--color-grey-100);
       border-radius: var(--border-radius-m);
       max-width: 60rem;
-      margin:  2rem 0.65rem;
+      margin: 1.1rem auto;
       height: 88vh;
       display: flex;
       flex-direction: column;

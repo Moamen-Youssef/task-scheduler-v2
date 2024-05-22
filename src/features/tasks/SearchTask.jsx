@@ -16,7 +16,7 @@ function SearchTask({ tasks, setTasks }) {
 
 
     const resultedTasks = tasks.filter((task) =>
-      task.title.includes(searchedValue)
+      task.title.includes(searchedValue.toLowerCase())
     );
     //if there is a result
     //set the tasks to the result
